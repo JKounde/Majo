@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Djo Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Lonely
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">JK</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#team">Team</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <!-- <section id="hero" class="hero section dark-background">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Bonjour, je suis Joëlle!</h2>
+        <p>Je suis développeuse web vivant à Paris<br></p>
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+
+    </section>/Hero Section -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+
+          <!-- Colonne image -->
+          <div class="col-lg-6 text-center mb-4 mb-lg-0">
+            <img src="assets/img/giflong.gif" alt="Portrait de Joëlle" class="img-fluid hero-img">
+          </div>
+
+          <!-- Colonne texte -->
+          <div class="col-lg-6 text-center text-lg-start">
+            <!-- script -->
+            <div class="anim">
+              <h1> Je suis </h1>
+              <h3 id="target"></h3>
+
+            </div>
+            <!-- <h2>Bonjour, je suis Joëlle!</h2> -->
+            <!-- <p>Je suis développeuse web vivant à Paris<br></p> -->
+            <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- /Hero Section -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>A propos</h2>
+        <p>A propos de moi ? Découvrez qui je suis en quelques infos !</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/DjoDance.gif" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Développeuse Web </h2>
+            <p class="fst-italic py-3">
+
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Site Web:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mobil:</strong> <span>+33 7 23 44 56 </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Paris</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Diplôme:</strong> <span>RNCP développeur web et mobil
+                      (niveau 5)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>djo@example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <p class="py-3">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
+              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            </p> -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>CV Express</h2>
+        <p>Un petit aperçu de mon pacours professionnel</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Diplômes</h3>
+
+            <div class="resume-item pb-0">
+              <!-- <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                  developing user-centered digital/print marketing material from initial concept to final, polished
+                  deliverable.</em></p> -->
+              <ul>
+                <li>Titre Professionnel RNCP niveau 5 (bac+2) de Développeur web et web mobile
+                </li>
+                <li>Diplôme Universitaire du Musicien Intervenant
+                  Université d’Orsay (bac +3)</li>
+                <li>Diplôme d’étude supérieure universitaire en “Pratiques de coaching” à l’université Paris 8 (bac +4)
+                </li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Fomations</h3>
+            <div class="resume-item">
+              <h4>École 42 -Student</h4>
+              <h5>2024 - 2025</h5>
+              <p><em>Programmation en C, HTML, CSS, Javascript, Python, etc .... En pair programming.
+                </em></p>
+              <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui
+                ut dignissimos deleniti nerada porti sand markend</p> -->
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Wild Code School - Social Builder
+              </h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Titre RNCP de développeuse full stack, web et web mobile
+                  Langage JavaScript (React, Express, NodeJS)
+                </em></p>
+              <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
+                unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart
+                dila</p> -->
+            </div><!-- Edn Resume Item -->
+
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Experiences Numériques</h3>
+            <div class="resume-item">
+              <h4>Stage chez Sopra Steria Estate:
+              </h4>
+              <h5>2024</h5>
+              <!-- <p><em>Experion, New York, NY </em></p> -->
+              <ul>
+                <li>Développement d'un formulaire interactif utilisant l'IA pour détecter des PDF, les traiter et
+                  automatiser le remplissage via React-hook-form.
+                </li>
+                <li>Intégration d'API externes pour les fonctionnalités d'autocomplétion du formulaire.
+                </li>
+                <li>Utilisation de React pour l'interface utilisateur, MUI pour le design et Node.js/Express pour la
+                  gestion d'un backend temporaire.
+                </li>
+                <!-- <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> -->
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Développeuse JavaScript</h4>
+              <h5>2024</h5>
+              <p><em>Dans le cadre du cursus de la Wild Code School</em></p>
+              <ul>
+                <li>Site vitrine d’un café littéraire.
+                  (HTML, CSS, JavaScript)</li>
+                <li>Site web offrant des recettes suivant les ingrédients sélectionnés.
+                  (React, Express,MySql, API, CSS )
+
+
+                </li>
+                <li>Site web et mobile réservé aux femmes spécialisées dans la tech, les mettant en relation
+                  avec des entreprises du numériques.
+                  (React, Express, MySql, CSS, Modélisation de BBD, JWT, JOI , Cookie)</li>
+                <!-- <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <!-- <section id="services" class="services section"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> End Section Title -->
+
+    <!-- <div class="container"> -->
+    <!-- 
+        <div class="row gy-4"> -->
+    <!-- 
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div> -->
+    </div><!-- End Service Item -->
+
+    <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div> -->
+    </div><!-- End Service Item -->
+
+    <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div> -->
+    </div><!-- End Service Item -->
+
+    <!-- <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div> -->
+    </div><!-- End Service Item -->
+
+    </div>
+
+    </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Un aperçu sur mes compétences</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65">
+                </div>
+              </div>
+            </div><!-- End Skills Item
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>React</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span></span>React <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="55">
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="progress">
+              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Un aperçu des quelques projets effectués. <s></s></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Projets</li>
+            <!-- <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Web</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <!-- Bubbles -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="imgDjo/Bubble copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Générateur de bulles</h4>
+                <p>Jeu</p>
+                <!-- <a href="imgDjo/Bubble copie.png" title="Jeu" target="_blank"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="https://bubble-generator-five.vercel.app/" target="_blank" title="More Details"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <!-- freeGo -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="imgDjo/freeGo copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>FreeGo</h4>
+                <p>Site Web</p>
+                <!-- <a href="imgDjo/freeGo copie.png" title="FreeGo"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a> -->
+                <a href="imgDjo/TopDemo  copie.mp4" target="_blank" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <!-- She tech jobs -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="imgDjo/sheTech copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>she tech jobs</h4>
+                <p>site Web</p>
+                <!-- <a href="imgDjo/sheTech copie.png" title="Branding 1"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a> -->
+                <a href="https://www.womentech.net/women-in-tech-jobs-board" target="_blank" title="More Details"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <!-- Générateur de MDP -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="imgDjo/MDP copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Générateur de mots de passe</h4>
+                <p>App</p>
+                <!-- <a href="" title="App 2"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="https://password-marker-hv55i07dw-djos-projects.vercel.app/" target="_blank"
+                  title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="imgDjo/CoffeeShop copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Le temps d'un instant</h4>
+                <p>Site Web</p>
+                <!-- <a href="imgDjo/CoffeeShop copie.png" title="Product 2"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a> -->
+                <a href="https://jkounde.github.io/libraryproject/" target="_blank" title="More Details"
+                  class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="imgDjo/Loop copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Helium</h4>
+                <p>Site vitrine</p>
+                <!-- <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a> -->
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <!-- 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="imgDjo/Bubble copie.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div> -->
+          </div><!-- End Portfolio Item -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div> -->
+        </div><!-- End Portfolio Item -->
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div> -->
+      </div><!-- End Portfolio Item -->
+
+      </div><!-- End Portfolio Container -->
+
+      </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Témoignages</h2>
+        <p>Ce sont eux qui en parlent le mieux !</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000"
+          data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" "="">
+            <p>
+              <i class=" bi bi-quote quote-icon-left"></i>
+                <span>Quand Joëlle est là, les projets avancent plus vite… et les pauses café durent un peu plus
+                  longtemps. Coïncidence ? Je ne crois pas.
+                  — Collègue accro aux pauses mais productif quand même.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="https://www.photofunky.net/output/image/0/d/9/d/0d9d2f/photofunky.gif" class="testimonial-img"
+                  alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Travailler avec Joëlle, c’est un peu comme avoir un mode d’emploi, un GPS et un clown de service
+                    en même temps : tu avances, tu comprends, et tu rigoles.
+                    — Collaborateur officiellement sauvé du burn-out</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="https://i.pinimg.com/originals/97/2d/fb/972dfb51561ea4cdd139e05fae2f03bf.gif"
+                  class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Avec Joëlle dans le bureau, même les réunions du lundi matin ressemblent à un stand-up… et pas
+                    seulement parce qu’on doit se lever pour le café.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img
+                  src="http://24.media.tumblr.com/0a875bd986a521c3ed0c9716ddcc2da3/tumblr_n1oexzlyuZ1qef46ho1_500.gif"
+                  class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Travailler avec Joëlle, c’est un peu comme avoir un mode d’emploi pour la vie de bureau : tout
+                    devient plus simple… et beaucoup plus drôle.
+                    — Ancien collègue officiellement fan</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/53719dffe4b095f55e6eea07/1423792252921-EYLHH5SLP65GWK8C5O9V/frankGifTest5.gif?format=1500w"
+                  class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>« Travailler avec Joëlle, c’est comme avoir un plugin bonne humeur installé en permanence : tout
+                    bug finit en fou rire.
+                    — Collègue qui ne veut plus changer d’équipe</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/53719dffe4b095f55e6eea07/1423792336139-TR8M07SG3MEF83MOR9K2/ezraPound_large.gif?format=1000w"
+                  class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>N'hésitez pas à me contacter ou me laisser un mot gentil.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Adresse</h3>
+                <p>189 bd Bessières 75017 Paris</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>mobil</h3>
+                <p>+33 89 55 48 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email </h3>
+                <p>djodev@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">Jokounde</h3>
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p> -->
+      <div class="social-links d-flex justify-content-center">
+        <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+        <!-- Mail -->
+        <a href="mailto:djodev@mail.com">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/33612345678" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://www.facebook.com/privacy/consent/?flow=ad_free_subscription&params[afs_variant]=drop_off&params[gcl_experience_id]=36e2e128-7682-40ac-a154-76edfb3d327c&source=ad_free_subscription_blocking_flow"
+          target="_blank"><i class="bi bi-facebook"></i></a>
+        <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
+        <a href="https://github.com/JKounde/Rush-CV" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/joellekound%C3%A9/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Djokounde</strong> <span>Tous droits réservés</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

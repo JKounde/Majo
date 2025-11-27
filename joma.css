@@ -1,0 +1,187 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+}
+
+/* PARALLAX */
+.parallax1 {
+    background-image: url("/rush/MT/assets/img/up-3d.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url("/rush/MT/assets/img/NewOrder_Power.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBAR */
+nav {
+    width: 100%;
+    height: 3.85vh;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    z-index: 8;
+}
+ul {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    font-size: 2.7vh;
+}
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 2vh;
+    color: white;
+    background-color: gray;
+}
+.sub {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+.title {
+    font-size: 3.5vh;
+    text-align: left;
+    font-family: 'Scooby Doo', sans-serif;
+}
+.active li {
+    background-color: white;
+    font-size: 3vh;
+}
+.active:hover {
+    background-color: lightgray;
+    font-size: 3.2vh;
+}
+nav ul li:hover .sub {
+    display: block;
+}
+.sub li {
+    width: 100%;
+    text-align: center;
+}
+.sub a {
+    padding: 10px;
+}
+.sub a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* DIV ON BACKGROUND */
+.on-img {
+    position: relative;
+    display: flex;
+    padding-top: 20vh;
+    justify-content: space-evenly;
+    font-family: 'Scooby Doo', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px darkgray;
+    font-size: 20vh;    
+}
+
+/* DIV ON BANNER */
+.banner {
+    position: absolute;
+    display: flex;
+    padding-top: 7vh;
+    top: 80%;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: gray;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.bannersection {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8vh;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+/* MEDAILLONS QUI TOURNENT */
+.cvcard {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 10vh;
+    perspective: 1000px;
+}
+.cvcard-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 0.5vh solid white;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+.cvcard:hover .cvcard-inner {
+    transform: rotateY(180deg);
+}
+.cvcard-front1, .cvcard-back1, .cvcard-front2, .cvcard-back2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    backface-visibility: hidden;
+    background-size: cover;
+    display: flex;
+}
+.cvcard-front1 {
+    background-image: url('/rush//MT/assets/img/mtank.jpg');
+}
+.cvcard-back1 {
+    background-image: url('https://i.pinimg.com/originals/97/2d/fb/972dfb51561ea4cdd139e05fae2f03bf.gif');
+    transform: rotateY(180deg);
+}
+.cvcard-front2 {
+    background-image: url('/rush/MT/assets/img/medium_jokounde.jpg');
+}
+.cvcard-back2 {
+    background-image: url('https://www.photofunky.net/output/image/0/d/9/d/0d9d2f/photofunky.gif');
+    transform: rotateY(180deg);
+}
+
+/* EFFETS SUR LES LIENS */
+a {
+    color:white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.banner a:hover {
+    color: lightgray;
+    font-size: 4vh;
+}
